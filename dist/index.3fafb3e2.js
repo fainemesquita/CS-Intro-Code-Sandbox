@@ -1056,7 +1056,7 @@ try {
   var _SortDefault = _parcelHelpers.interopDefault(_Sort);
   var _Tree = require("./Tree");
   var _TreeDefault = _parcelHelpers.interopDefault(_Tree);
-  var _jsxFileName = "/project/sandbox/src/index.js";
+  var _jsxFileName = "/Users/fainemesquita/Documents/Prog/CS-Intro-Code-Sandbox/src/index.js";
   const App = () => {
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
@@ -30315,7 +30315,7 @@ try {
   var _lodash = require("lodash");
   var _sortVisualizer = require("./sort-visualizer");
   require("./sort.css");
-  var _jsxFileName = "/project/sandbox/src/Sort.js";
+  var _jsxFileName = "/Users/fainemesquita/Documents/Prog/CS-Intro-Code-Sandbox/src/Sort.js";
   function sort(array) {
     // do cool stuff here
     // call snapshot any time you do anything to the array
@@ -45903,7 +45903,7 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _lodash = require("lodash");
   var _lodashDefault = _parcelHelpers.interopDefault(_lodash);
-  var _jsxFileName = "/project/sandbox/src/sort-visualizer.js";
+  var _jsxFileName = "/Users/fainemesquita/Documents/Prog/CS-Intro-Code-Sandbox/src/sort-visualizer.js";
   function clear() {
     isDone = false;
     reducedSnapshots = [];
@@ -46254,7 +46254,7 @@ try {
   var _treeVisualizer = require("./tree-visualizer");
   var _lodash = require("lodash");
   var _lodashDefault = _parcelHelpers.interopDefault(_lodash);
-  var _jsxFileName = "/project/sandbox/src/Tree.js";
+  var _jsxFileName = "/Users/fainemesquita/Documents/Prog/CS-Intro-Code-Sandbox/src/Tree.js";
   class Tree {
     add(num) {}
     toObject() {
@@ -46315,7 +46315,7 @@ try {
   var _lodashDefault = _parcelHelpers.interopDefault(_lodash);
   var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
-  var _jsxFileName = "/project/sandbox/src/tree-visualizer.js";
+  var _jsxFileName = "/Users/fainemesquita/Documents/Prog/CS-Intro-Code-Sandbox/src/tree-visualizer.js";
   function _extends() {
     _extends = Object.assign || (function (target) {
       for (var i = 1; i < arguments.length; i++) {
