@@ -27,16 +27,24 @@ function findLongestNumber(array) {
 }
 
 function radixSort(array) {
+  //find longest number
   const longestNumber = findLongestNumber(array);
 
+  // create how many buckets you need
+  // Array(10) is an array of 10 arrays
   const buckets = new Array(10).fill().map(() => []); // make an array of 10 arrays
 
+  // for loop for how many iterations you need to do
+    // while loop
+    // enqueue the numbers into their buckets
   for (let i = longestNumber - 1; i >= 0; i--) {
     while (array.length) {
       const current = array.shift();
       buckets[getDigit(current, i, longestNumber)].push(current);
     }
 
+    //for loop for each bucket
+    // dequeue all of the items out of the bucket
     for (let j = 0; j < 10; j++) {
       while (buckets[j].length) {
         array.push(buckets[j].shift());
