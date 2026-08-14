@@ -23,19 +23,23 @@ class ArrayList {
     this.data = {};
   }
   push(value) {
+    // add an item to the end of the array
     this.data[this.length] = value;
     this.length++;
   }
   pop() {
+    // removes the last item of the array and returns it
     const ans = this.data[this.length - 1];
     delete this.data[this.length - 1];
     this.length--;
     return ans;
   }
   get(index) {
+    // returns that item from the array
     return this.data[index];
   }
   delete(index) {
+    // removed item from the array and collapses the array
     const ans = this.data[index];
     this._collapseTo(index);
     return ans;
