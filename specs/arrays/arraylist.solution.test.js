@@ -29,10 +29,10 @@ class ArrayList {
   }
   pop() {
     // removes the last item of the array and returns it
-    const ans = this.data[this.length - 1];
+    const response = this.data[this.length - 1];
     delete this.data[this.length - 1];
     this.length--;
-    return ans;
+    return response;
   }
   get(index) {
     // returns that item from the array
@@ -40,9 +40,9 @@ class ArrayList {
   }
   delete(index) {
     // removed item from the array and collapses the array
-    const ans = this.data[index];
+    const response = this.data[index];
     this._collapseTo(index);
-    return ans;
+    return response;
   }
   _collapseTo(index) {
     for (let i = index; i < this.length; i++) {
