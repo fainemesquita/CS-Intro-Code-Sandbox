@@ -44,6 +44,8 @@ class ArrayList {
     this._collapseTo(index);
     return response;
   }
+
+  // underscore symbolises a private method
   _collapseTo(index) {
     for (let i = index; i < this.length; i++) {
       this.data[i] = this.data[i + 1];
